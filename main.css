@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000000;
+}
+/*--- navigation bar ---*/
+.navbar {
+    background:#000000;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-left: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('images/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: #000000;
+    font-weight: bold;
+}
+.description p {
+    color: #fff;
+    font-size: 1.9rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+
+.description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+}
+
+.card {
+    left: 60%;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    background:#fff;
+}
+
+.card_2 {
+    right: 60%;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    background:#fff;
+}
+
+.card_3 {
+    left: 10%;
+    position: absolute;
+    top: 40%;
+    text-align: left;
+    background:#fff;
+}
+
+.img {
+    display: block;
+    margin-right: 50px;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 300px;
+
+}
+.form {
+    text-align: left;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://static-ptl-us.gcdn.co/dcont/fb/image/t-54_1920x1200_wall.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 1000px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
